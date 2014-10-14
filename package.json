@@ -1,0 +1,21 @@
+{
+    "name": "trackhealth",
+    "version": "0.0.1",
+    "description": "build websites and visualize",
+    "main": "server.js",
+    "author": "Lifei & Molly",
+    "dependencies": {
+        "express": "*",
+        "mongoose": "*",
+        "morgan": "*",
+        "body-parser": "*",
+        "method-override": "*"
+    },
+    "subdomain":"trackhealth",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
