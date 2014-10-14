@@ -9,7 +9,8 @@
         "mongoose": "*",
         "morgan": "*",
         "body-parser": "*",
-        "method-override": "*"
+        "method-override": "*",
+        "angular-ui-router": "*"
     },
     "subdomain":"trackhealth",
     "scripts": {

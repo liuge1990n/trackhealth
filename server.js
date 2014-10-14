@@ -34,3 +34,4 @@ app.post('/api/users/:userid/weight',profile.updateweight);
 //Setting up link
 var httpServer = http.createServer(app);
 httpServer.listen(3000);
+console.log("Now listening http on 3000");
