@@ -24,11 +24,14 @@ app.use(bodyParser.json({type: 'application/vnd.api+json'}));
 app.use(methodOverride());
 
 //Model
-var healthData = new Schema({
+var healthDatas = new Schema({
     userid: String,
     wg: [{ date:Date, weight:Number}]
 });
-//APIs
+mongoose.model("healthDatas",healthDatas);
+var healthData=mongoose.model("healthDatas");
+//API
+
 app.get('/api/users/:userid/weight',profile.getweight);
 app.post('/api/users/:userid/weight',profile.updateweight);
 //Setting up link

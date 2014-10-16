@@ -9,5 +9,13 @@
     <body ng-controller="mainCtrl">
         <div ng-repeat="dummy in dummies">{{dummy}}</div>
         <button type="button">Add weight</button>
+        <br>
+        
+        <form name = "healthdata" novalidate>
+            <button type="button" ng-click="createhealthData()">Update weight</button>
+            input your user id: <input type="text" name="newid" />
+            input your weight: <input type="text" name="newweight"/>
+        </form>
+
     </body>
 </html>

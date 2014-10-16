@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "build websites and visualize",
     "main": "server.js",
-    "author": "Lifei & Molly",
+    "author": "Lifei & Haoyu",
     "dependencies": {
         "express": "*",
         "mongoose": "*",
